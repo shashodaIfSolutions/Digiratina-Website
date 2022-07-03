@@ -12,11 +12,13 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 function Logo() {
-  
+
   const classes = useStyles();
 
   return (
+
     <img src={logoImage} alt='Logo'  width={'200px'} className={classes.logo}></img>
+    
   );
 }
 
